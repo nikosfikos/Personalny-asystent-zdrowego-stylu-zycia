@@ -14,7 +14,7 @@ int main() {
 
             continue;
         }
-        if (weight < 100 || weight > 250) {
+        if (weight < 30 || weight > 250) {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
             std::cerr << "Error: weight must be in range of 30-250kg." << std::endl;
@@ -200,6 +200,8 @@ int main() {
     std::cout <<"tdee " << tdee<<std::endl;
     std::cout<<"goal "<< goal<<std::endl;
     std::cout <<"perfect_weight "<< perfect_weight<<std::endl;
+
+
 
 
 }
